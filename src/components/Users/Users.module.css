@@ -1,0 +1,27 @@
+.mainbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  margin: 3rem auto;
+  border-radius: 12px;
+}
+
+.form {
+  flex-direction: column;
+  padding-bottom: 1rem;
+  display: inherit;
+  width: 100%;
+  align-items: flex-start;
+  margin-left: 3rem;
+}
+
+.form label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form input {
+  width: 80%;
+}
